@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'learn_chef_apache2::default' do
+describe 'my_site::default' do
   # Serverspec examples can be found at
   # http://serverspec.org/resource_types.html
   it 'does something' do
