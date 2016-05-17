@@ -17,5 +17,5 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[learn_chef_apache2::default]
+      - recipe[my_site::default]
     attributes:
