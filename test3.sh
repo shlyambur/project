@@ -1,4 +1,4 @@
-if [ "$(getconf LONG_BIT)" = 32 ];
+if [ "$(sudo getconf LONG_BIT)" = 32 ];
 then
         sudo wget -O ~/project/chef_12.9.41-1_i386.deb https://packages.chef.io/stable/ubuntu/10.04/chef_12.9.41-1_i386.deb
         sudo dpkg -i ~/project/chef_12.9.41-1_i386.deb
